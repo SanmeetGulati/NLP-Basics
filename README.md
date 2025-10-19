@@ -20,7 +20,7 @@ To make this possible, text must be transformed from its raw, unstructured form 
 
 The NLP pipeline is a series of systematic steps used to process and analyze natural language data. Each step plays a crucial role in transforming raw text into something that can be understood and leveraged by computational models.
 
-🗂️ 1. Text Collection
+ 1. Text Collection
 
 This is the first stage where raw text data is gathered from different sources, such as:
 
@@ -34,7 +34,7 @@ User inputs from applications or chatbots
 
 The quality and quantity of this data significantly impact the performance of downstream tasks.
 
-🧹 2. Text Preprocessing
+ 2. Text Preprocessing
 
 Raw text is noisy and inconsistent. Preprocessing cleans and normalizes it. Key preprocessing steps include:
 
@@ -71,11 +71,11 @@ More sophisticated than stemming. It converts a word to its dictionary form usin
 
 Example: "better" → "good"
 
-🔢 3. Text Representation
+ 3. Text Representation
 
 After cleaning the text, it needs to be converted into a format suitable for machine learning models — typically numerical vectors.
 
-🧱 Common Representation Methods:
+Common Representation Methods:
 🔸 Bag of Words (BoW)
 
 Represents text by word frequency.
@@ -110,11 +110,11 @@ RoBERTa
 
 GPT
 
-🤖 4. Modeling
+ 4. Modeling
 
 Once the text is converted to numerical form, it can be fed into machine learning or deep learning models to perform various tasks:
 
-📌 Common NLP Tasks:
+*  Common NLP Tasks:
 
 Text Classification
 Predict a category for a piece of text (e.g., spam detection, topic labeling).
@@ -134,11 +134,11 @@ Extract or generate answers from documents.
 Machine Translation
 Automatically translate text from one language to another.
 
-📊 5. Postprocessing and Evaluation
+ 5. Postprocessing and Evaluation
 
 After predictions or transformations, the results are analyzed and validated.
 
-📏 Evaluation Metrics:
+* Evaluation Metrics:
 
 Accuracy – Proportion of correct predictions.
 
@@ -150,7 +150,7 @@ F1 Score – Harmonic mean of precision and recall.
 
 For generative tasks, additional metrics like BLEU, ROUGE, or Perplexity may be used.
 
-⚙️ Example NLP Pipeline Flow
+* Example NLP Pipeline Flow
 Raw Text
    ↓
 Preprocessing (tokenization, stopword removal, etc.)
@@ -161,7 +161,7 @@ Modeling (classification, NER, sentiment analysis, etc.)
    ↓
 Evaluation (accuracy, F1 score, confusion matrix)
 
-🛠️ Tools and Libraries
+* Tools and Libraries
 
 Popular libraries that support various stages of the NLP pipeline:
 
@@ -173,7 +173,8 @@ Transformers (Hugging Face)	Pretrained models (BERT, GPT, etc.)
 Gensim	Topic modeling, Word2Vec
 TextBlob	Sentiment analysis, easy NLP
 Flair	Named entity recognition
-🚀 Example Use Cases
+
+*Example Use Cases
 
 Here are some real-world examples of how this NLP pipeline is applied:
 
